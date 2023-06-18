@@ -34,4 +34,4 @@ models:
     +materialized: incremental
     +incremental_strategy: delete+insert
     +file_format: delta
-    +location_root: s3a://warehouse/bronze
+    +location_root: hdfs://datalake1:8020/user/hive/warehouse/bronze

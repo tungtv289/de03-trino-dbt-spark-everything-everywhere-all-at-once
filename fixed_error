@@ -1,0 +1,4 @@
+# dbt run --project-dir ./bronze --profiles-dir ./ --full-refresh
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [16777216]: Query failed (#20230616_191735_00022_nbpd4): Table bronze.mytable failed strict managed table checks due to the following reason: Table is marked as a managed table but is not transactional.
+
+https://community.cloudera.com/t5/Support-Questions/Hive-managed-table-doesn-t-work-in-with-non-transactional-in/td-p/237514?lightbox-message-images-237517=14232i8E84A1CF23E989AB

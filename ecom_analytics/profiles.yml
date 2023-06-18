@@ -4,7 +4,7 @@ trino:
     dev:
       type: trino
       user: admin
-      host: localhost
+      host: enode2
       port: 8080
       database: warehouse
       schema: bronze
@@ -16,11 +16,12 @@ spark:
     dev:
       type: spark
       method: thrift
-      host: localhost
-      port: 10000
+      host: enode1
+      port: 10016
       schema: silver
-      connect_retries: 5
-      connect_timeout: 60
+      auth: NOSASL
+      connect_retries: 3
+      connect_timeout: 5
       retry_all: true
 
 gold:

@@ -1,11 +1,10 @@
-pandas==1.5.2
-SQLAlchemy==1.4.45
-PyMySQL==1.0.2
-minio==7.1.12
-PyHive==0.6.5
-dbt-core==1.4.0
-dbt-spark==1.4.0
-dbt-spark[PyHive]
-dbt-spark[session]
-dbt-trino==1.4.0
-dbt-postgres==1.4.0
+pip install pandas==1.5.2;
+pip install SQLAlchemy==1.4.45;
+pip install PyMySQL==1.0.2;
+pip install minio==7.1.12;
+pip install PyHive==0.6.5;
+pip install dbt-spark==1.4.0;
+pip install dbt-spark[PyHive];
+pip install dbt-spark[session];
+pip install dbt-trino==1.4.0;
+pip install dbt-postgres==1.4.0;
